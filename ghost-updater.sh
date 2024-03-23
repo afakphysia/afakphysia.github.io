@@ -6,7 +6,7 @@ mkdir docs
 cd docs
 echo "https://sajdaah-kr.github.io" > CNAME
 cd -
-ECTO1_SOURCE=http://localhost:2368 ECTO1_TARGET=https:sajdaah-kr.github.io python3 ecto1.py
+ECTO1_SOURCE=http://localhost:2368 ECTO1_TARGET=https://sajdaah-kr.github.io python3 ecto1.py
 cd docs
 docker cp ghost:/var/lib/ghost/content/images/. content/images
 cd -
